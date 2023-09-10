@@ -9,9 +9,19 @@
 <body>
    <label for="nom">Votre nom:</label><input type="text" name="nom" id="nom"><br>
    <label for="prenom">Votre prénom:</label><input type="text" name="prénom" id="prenom"><br>
-   <label for="calcule">Entrez votre calcule:</label><input type="text" name="calcule" id="calcule"><br>
+
    <input type="submit" value="envoyer"/>
-   <input type="reset" value="annuler"/>
+   <input type="reset" value="annuler"/><br>
+   <input type="text" id="n1"/><br>
+   <select id="signes">
+    <option value="addition">+</option>
+    <option value="soustraction">-</option>
+    <option value="division">/</option>
+   </select><br>
+   <input type="text" id="n2"/><br>
+   <button onclick="calcule()">=</button><input type="text" id="n3"/>
+   
+
 
 </body>
 </html>
