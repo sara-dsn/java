@@ -8,8 +8,14 @@ alert(prenom);
 
 var calcule;
 console.log(typeof nombre);
-function calcule{
-    var n1 =document.getElementById(n1).value;
-    var n2 =document.getElementById(n2).value;
-    var n3 =document.getElementById(n3.value);
+function calc()
+{
+    var n1 = parseInt(document.getElementById(n1).value);
+    var n2 =paresInt(document.getElementById(n2).value);
+    var signes=document.getElementById('signes').value;
+    if(signes === '+'){
+
+        var n2 =document.getElementById(n3).value= n1+n2;
+    }
+  
 }
